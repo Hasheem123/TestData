@@ -5,14 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Java {
+public class Sampletest {
 
+	WebDriver driver;
+	@Test
 	
-	public static WebDriver driver;
-
-
-	public static void main(String[] args) throws Exception {
+	public void TestMethod() {
 		
 		
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
